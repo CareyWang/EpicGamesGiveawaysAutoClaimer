@@ -13,7 +13,7 @@ env:
 
 jobs:
   MainWork:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:      
       - name: Set Timezone to UTC+8
         env: 
